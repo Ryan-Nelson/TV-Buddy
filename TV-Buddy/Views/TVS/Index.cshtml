@@ -1,0 +1,107 @@
+﻿@model IEnumerable<TV_Buddy.Models.TVS>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Brand)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModelNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SerialNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Size)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quality)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HDR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OLED)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QLED)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LED)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContrastLevels)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hrz)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BitRate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Brand)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModelNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SerialNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Size)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quality)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HDR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OLED)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QLED)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LED)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContrastLevels)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hrz)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BitRate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TVSId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TVSId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TVSId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

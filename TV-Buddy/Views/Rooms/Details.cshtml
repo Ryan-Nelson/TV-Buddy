@@ -1,0 +1,54 @@
+﻿@model TV_Buddy.Models.Rooms
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Rooms</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RoomName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RoomName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WallHeight)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WallHeight)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WallLength)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WallLength)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DistanceFromSeat)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DistanceFromSeat)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Xbox)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Xbox)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.bluray)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.bluray)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.RoomsId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
