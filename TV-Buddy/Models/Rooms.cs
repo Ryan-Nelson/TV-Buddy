@@ -24,9 +24,9 @@ namespace TV_Buddy.Models
         [Display(Name = "Enter Wall Length")]
         public int WallLength { get; set; }
 
-        [Required]
+/*        [Required]
         public string UserId { get; }
-        public ApplicationUser User { get; }
+        public ApplicationUser User { get; }*/
 
         [Required]
         [Display(Name = "Enter Distance From your seat")]

@@ -10,7 +10,7 @@ using TV_Buddy.Data;
 namespace TV_Buddy.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190618141346_test")]
+    [Migration("20190619163702_test")]
     partial class test
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

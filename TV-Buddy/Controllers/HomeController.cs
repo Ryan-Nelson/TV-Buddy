@@ -27,3 +27,50 @@ namespace TV_Buddy.Controllers
         }
     }
 }
+
+
+/*        public async Task<IActionResult> PrefectSize(int? id)
+            {
+                var multapierForSize = 0.84;
+                return public Rooms DistanceFromSeat * multapierForSize;
+        }
+    */
+
+/*        public IActionResult QualityOfTV(Rooms _DistanceFromSeat)
+        {
+            double totalQualityOfTV = _DistanceFromSeat * .84;
+
+        }*/
+
+
+/*        public IActionResult QualityOfTV(Rooms _xbo)
+        {
+            double totalQualityOfTV = _DistanceFromSeat * .84;
+
+        }*/
+/*        public IActionResult QualityOfTV(bool _Xbox , bool _bluray, string _Quality)
+        {
+            if (_Xbox == false && _bluray != false)
+            {
+                _Quality = "4k";
+
+            }
+            else if (_Xbox != false && _bluray == false)
+            {
+                _Quality = "4k";
+
+            }
+            else if (_Xbox != false && _bluray != false)
+            {
+                _Quality = "4k";
+
+            }
+            else if (_Xbox == false && _bluray == false)
+            {
+                _Quality = "1080p";
+
+            }
+            string currentQuality = _Quality;
+
+            return View(currentQuality);
+        }*/
