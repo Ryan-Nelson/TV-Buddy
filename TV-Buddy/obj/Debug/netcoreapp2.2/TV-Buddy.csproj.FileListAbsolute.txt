@@ -35,11 +35,6 @@ C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Areas\Id
 C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
 C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
 C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
-C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\Rooms\Create.g.cshtml.cs
-C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\Rooms\Delete.g.cshtml.cs
-C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\Rooms\Details.g.cshtml.cs
-C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\Rooms\Edit.g.cshtml.cs
-C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\Rooms\Index.g.cshtml.cs
 C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\TVSInRooms\Create.g.cshtml.cs
 C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\TVSInRooms\Delete.g.cshtml.cs
 C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\TVSInRooms\Details.g.cshtml.cs
@@ -50,3 +45,8 @@ C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\TV
 C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\TVS\Details.g.cshtml.cs
 C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\TVS\Edit.g.cshtml.cs
 C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\TVS\Index.g.cshtml.cs
+C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\Rooms\Create.g.cshtml.cs
+C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\Rooms\Delete.g.cshtml.cs
+C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\Rooms\Details.g.cshtml.cs
+C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\Rooms\Edit.g.cshtml.cs
+C:\Users\Chad\workspace\TV-Buddy\TV-Buddy\obj\Debug\netcoreapp2.2\Razor\Views\Rooms\Index.g.cshtml.cs

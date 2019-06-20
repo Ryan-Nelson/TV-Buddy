@@ -226,6 +226,8 @@ namespace TV_Buddy.Migrations
 
                     b.Property<int>("ContrastLevels");
 
+                    b.Property<bool>("FullHd");
+
                     b.Property<bool>("HDR");
 
                     b.Property<int>("Hrz");
@@ -245,6 +247,8 @@ namespace TV_Buddy.Migrations
                     b.Property<int>("SerialNumber");
 
                     b.Property<int>("Size");
+
+                    b.Property<bool>("uhd");
 
                     b.HasKey("TVSId");
 

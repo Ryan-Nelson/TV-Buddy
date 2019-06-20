@@ -17,19 +17,18 @@ namespace TV_Buddy.Models
         public string RoomName { get; set; }
 
         [Required]
-        [Display(Name = "Enter Wall Height")]
+        [Display(Name = "Enter Wall Height In FT")]
         public int WallHeight { get; set; }
 
         [Required]
-        [Display(Name = "Enter Wall Length")]
+        [Display(Name = "Enter Wall Length In FT")]
         public int WallLength { get; set; }
 
-/*        [Required]
-        public string UserId { get; }
-        public ApplicationUser User { get; }*/
+ 
+        public ApplicationUser User { get; }
 
         [Required]
-        [Display(Name = "Enter Distance From your seat")]
+        [Display(Name = "Enter Distance From your seat In FT")]
         public int DistanceFromSeat { get; set; }
 
 

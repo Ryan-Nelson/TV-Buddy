@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace TV_Buddy.Migrations
 {
-    public partial class test : Migration
+    public partial class testTv : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -80,6 +80,8 @@ namespace TV_Buddy.Migrations
                     SerialNumber = table.Column<int>(nullable: false),
                     Size = table.Column<int>(nullable: false),
                     Quality = table.Column<int>(nullable: false),
+                    uhd = table.Column<bool>(nullable: false),
+                    FullHd = table.Column<bool>(nullable: false),
                     HDR = table.Column<bool>(nullable: false),
                     OLED = table.Column<bool>(nullable: false),
                     QLED = table.Column<bool>(nullable: false),

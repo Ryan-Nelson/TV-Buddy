@@ -10,8 +10,8 @@ using TV_Buddy.Data;
 namespace TV_Buddy.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190619163702_test")]
-    partial class test
+    [Migration("20190620191036_testTv")]
+    partial class testTv
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -228,6 +228,8 @@ namespace TV_Buddy.Migrations
 
                     b.Property<int>("ContrastLevels");
 
+                    b.Property<bool>("FullHd");
+
                     b.Property<bool>("HDR");
 
                     b.Property<int>("Hrz");
@@ -247,6 +249,8 @@ namespace TV_Buddy.Migrations
                     b.Property<int>("SerialNumber");
 
                     b.Property<int>("Size");
+
+                    b.Property<bool>("uhd");
 
                     b.HasKey("TVSId");
 
