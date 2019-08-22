@@ -1,0 +1,1 @@
+# TV Buddy is a TV buying app, built in C# .NET  that helps a user find the perfect TV for them.When the user logs in they will see their room page. The user will be able to add room specifications, and current tv's on the market and display it to the user where they can then save it, or modify it later.
